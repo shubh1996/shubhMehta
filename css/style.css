@@ -1,0 +1,283 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Libre+Franklin|Nunito|PT+Sans|Questrial|Raleway|Varela+Round&display=swap');
+/* theme */
+/* #15B4d9 blue  rgb(21,180,217)*/
+/* 3E3E3E black  rgb(62,62,62)*/
+/* efefef off-fight rgb(239,239,239) */
+/* ffffff white rgb(255,255,255) */
+/*
+ font-family: 'Dancing Script', cursive;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Varela Round', sans-serif;
+ */
+body{
+    background-color: #fff;
+    height:100vh;
+    width:100vw;
+    margin:0;
+    padding:0;
+}
+
+.sh-scroll::-webkit-scrollbar {
+    width: 0.3em;
+  }
+   
+  .sh-scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+   
+  .sh-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(62,62,62,0.5);
+    outline: 1px solid black;
+  }
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+@keyframes myLogo {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.container-main{
+width:100vw;
+height:100vh;
+margin:0;
+padding:0;
+overflow: hidden;
+}
+.sh-bdr{
+    border:1px solid #3E3E3E;
+}
+
+.no-bdr{
+    border:none !important;
+}
+
+.sh-dark-color{
+    color:#3E3E3E;
+}
+
+.sh-light-color{
+    color:#EFEFEF;
+}
+.font-ds{
+    font-family: 'Dancing Script', cursive;
+}
+/* .font-lf{
+    font-family: 'Libre Franklin', sans-serif;
+} */
+.font-n{
+    font-family: 'Nunito', sans-serif;
+}
+/* .font-ps{
+    font-family: 'PT Sans', sans-serif;
+} */
+/* .font-q{
+    font-family: 'Questrial', sans-serif;
+} */
+/* .font-r{
+    font-family: 'Raleway', sans-serif;
+} */
+/* .font-vr{
+    font-family: 'Varela Round', sans-serif;
+} */
+.fo1{
+    font-size:5rem;
+}
+
+.fo2{
+    font-size:4rem;
+}
+
+.fo3{
+    font-size:3rem;
+}
+
+.fo4{
+    font-size:2rem;
+}
+
+.fo5{
+    font-size:1.5rem;
+}
+
+.sh-bold{
+    font-weight:600;
+}
+
+.sh-position-absolute{
+    position:absolute;
+}
+
+.sh-position-relative{
+    position:relative;
+}
+
+.sh-disable-button {
+    pointer-events: none;
+}
+
+.no-focus:focus{
+    outline:none;
+}
+
+.display-inline-block{
+    display:inline-block;
+}
+
+.display-none{
+    display:none;
+}
+
+.display-inline{
+    display:inline;
+}
+
+.display-flex{
+    display:flex;
+}
+
+.position-sticky{
+    position:sticky;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.m-1{
+    margin: 1rem;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.w-100{
+    width:100%;
+}
+
+.w-50{
+    width:50%;
+}
+
+.w-75{
+    width:75%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.overflow-y-auto{
+    overflow-y: auto;
+}
+
+.data-container-height{
+    height:88vh;
+}
+
+.sub-heads{
+    background-color: rgba(21,180,217,0.3);
+   }
+
+   .right-sub{
+    border-radius: 0 5rem 5rem 0;
+    padding-right: 1rem;
+}
+
+.left-sub{
+    border-radius: 5rem 0 0 5rem;
+    padding-left: 1rem;
+}
+
+
+
+
+.dp-image{
+    /* margin-top:0.25vh; */
+    position: absolute;
+    right: 0.5vh;
+    top: 0.5vh;
+    border-radius: 50%;
+    height: 3.5vw;
+    width: 3.5vw;
+    border: 0.3vh solid rgba(155,155,155,0.25);
+    box-shadow: 0px 0px 10px rgba(100,100,100,1);
+    animation: myLogo 8s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.name-container {
+    box-shadow: 1px 1px 23px rgba(21,180,217,0.5);
+    height: 4.5vw;
+}
+
+.icons-box{
+    width: 4.5vw;
+    /* height: 45vh; */
+    height:0;
+    float: right;    
+    overflow: hidden;
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 4.5vw;
+    padding-left: 0.25vw ;
+    transition: all .5s ease-in-out;
+
+}
+
+.info-icons{
+    position: relative;
+    overflow: hidden;
+}
+.info-icons img{
+    width:3vw;
+    margin-left: 0.75vw;
+}
+
+.final-icons{
+    margin-top:0.5vh;
+}
+
+.boxes{
+    height:10vh;
+}
