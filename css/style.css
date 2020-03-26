@@ -205,6 +205,10 @@ img {
     padding-right: 2rem !important;
 }
 
+.pl-2 {
+    padding-left: 2rem !important;
+}
+
 .pr-5 {
     padding-right: 5rem !important;
 }
@@ -330,6 +334,27 @@ img {
 border-bottom:10px solid transparent;
 border-top:10px solid transparent;
 border-right:10px solid #000000; */
+    font-size: 0.75rem;
+}
+
+.rnsit-ed::before {
+    content: "(2018 - 72.8%)";
+    width: 0px;
+    height: 0px;
+    font-size: 0.75rem;
+}
+
+.svec-12::before {
+    content: "(2014 - 85.8%)";
+    width: 0px;
+    height: 0px;
+    font-size: 0.75rem;
+}
+
+.svec-10::before {
+    content: "(2012 - 8.8CGPA)";
+    width: 0px;
+    height: 0px;
     font-size: 0.75rem;
 }
 
