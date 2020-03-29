@@ -92,6 +92,10 @@ img {
     font-family: 'Dancing Script', cursive;
 }
 
+.sh-shadow {
+    box-shadow: 0px 0px 4px rgba(100, 100, 100, 1);
+}
+
 
 /* .font-lf{
     font-family: 'Libre Franklin', sans-serif;
@@ -250,7 +254,7 @@ img {
 }
 
 .data-container-height {
-    height: 88vh;
+    height: 94vh;
 }
 
 .sub-heads {
@@ -361,6 +365,69 @@ border-right:10px solid #000000; */
 .rnsit a::after {
     content: "("attr(href)")";
     font-size: 0.75rem;
+}
+
+.about-boxes {
+    width: 18.75vw;
+    /* margin: 0.4vw; */
+    padding: 0.4vw;
+    height: 20vh;
+    border-radius: 0.5em;
+    display: inline-block;
+    /* overflow: hidden; */
+}
+
+.front-div {
+    /* width: 18vw; */
+    /* margin: 0.4vw; */
+    margin: auto;
+    width: 95%;
+    height: 98%;
+    max-height: 19vh;
+    display: block;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.back-div {
+    /* width: 18vw; */
+    /* margin: 0.4vw; */
+    margin: auto;
+    width: 95%;
+    height: 98%;
+    max-height: 19vh;
+    border-radius: 0.5em;
+    display: none;
+    overflow: hidden;
+}
+
+.back-div table {
+    margin: auto;
+    text-align: center;
+}
+
+.about-boxes:hover .front-div {
+    transition: all .5s ease-in-out;
+    display: none;
+}
+
+.about-boxes:hover .back-div {
+    transition: all .5s ease-in-out;
+    display: block;
+}
+
+.strength {
+    height: 7vh;
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.pt-email {
+    padding-top: 20%;
+}
+
+.pt-others {
+    padding-top: 5%;
 }
 
 
