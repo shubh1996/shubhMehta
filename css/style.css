@@ -374,7 +374,7 @@ border-right:10px solid #000000; */
 .about-boxes {
     width: 18.75vw;
     /* margin: 0.4vw; */
-    padding: 0.4vw;
+    padding: 0.4vw 0;
     height: 20vh;
     border-radius: 0.5em;
     display: inline-block;
